@@ -93,7 +93,8 @@ const PORTFOLIO = {
         { name: "Avante Aesthetics — Web Portal & CRM",                   tags: ["Web"] },
         { name: "Fouad Al-Khateeb Hospital + Web Portal",                 tags: ["Web"] },
         { name: "Akij Mediplex Limited + Web Portal",                     tags: ["Web"] },
-        { name: "Akij Insaf Diagnostic & Consultation Center + Akij Insaf App", tags: ["Web", "Android", "iOS"] }
+        { name: "Akij Insaf Diagnostic & Consultation Center + Akij Insaf App", tags: ["Web", "Android", "iOS"] },
+        { name: "Elegance Specialized Hospital PLC, Dhaka — ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] }
       ],
       tags: [
         "Healthcare ERP",
