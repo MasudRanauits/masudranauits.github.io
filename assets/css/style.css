@@ -472,6 +472,22 @@ html[data-theme="dark"] .contact-ring { color: var(--primary); }
 .contact-item h4 { font-size: .95rem; font-weight: 500; }
 .contact-item p { font-size: .92rem; overflow-wrap: anywhere; }
 .contact-item a:hover { color: var(--title); text-decoration: underline; }
+
+/* Address and copy button share a line and wrap together on narrow screens. */
+.contact-value { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.copy-btn {
+  display: inline-flex; align-items: center; gap: 5px; flex: 0 0 auto;
+  padding: 4px 7px; border: 1px solid var(--border); border-radius: var(--r-sm);
+  background: transparent; color: var(--muted);
+  font: inherit; font-size: .76rem; line-height: 1; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.copy-btn svg { width: 14px; height: 14px; }
+.copy-btn:hover { background: var(--primary-soft); border-color: var(--primary-line); color: var(--title); }
+.copy-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.copy-btn.is-copied {
+  background: var(--primary); border-color: var(--primary); color: var(--on-primary);
+}
 .contact-social { display: flex; gap: 12px; margin-top: 24px; }
 .contact-social .icon-btn { border-radius: 50%; background: var(--primary-soft); border-color: transparent; }
 
