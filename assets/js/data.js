@@ -88,13 +88,13 @@ const PORTFOLIO = {
       ],
       projects: [
         { name: "Popular Medical College Hospital — Healthcare ERP",      tags: ["Web"] },
-        { name: "Kidney Foundation Hospital, Sylhet — ERP",               tags: ["Web"] },
-        { name: "Medinova Medical Services Ltd — ERP + Web Portal",       tags: ["Web"] },
-        { name: "Avante Aesthetics — ERP + Web Portal & CRM",             tags: ["Web"] },
-        { name: "Fouad Al-Khateeb Hospital — ERP + Web Portal + Mobile App", tags: ["Web", "Android", "iOS"] },
+        { name: "Kidney Foundation Hospital, Sylhet — Healthcare ERP",    tags: ["Web"] },
+        { name: "Medinova Medical Services Ltd — Healthcare ERP + Web Portal", tags: ["Web"] },
+        { name: "Avante Aesthetics — Healthcare ERP + Web Portal & CRM",  tags: ["Web"] },
+        { name: "Fouad Al-Khateeb Hospital — Healthcare ERP + Web Portal + Mobile App", tags: ["Web", "Android", "iOS"] },
         { name: "Akij Mediplex Limited — Healthcare ERP + Web Portal",    tags: ["Web"] },
         { name: "Akij Insaf Diagnostic & Consultation Center — Healthcare ERP + Akij Insaf App", tags: ["Web", "Android", "iOS"] },
-        { name: "Elegance Specialized Hospital PLC, Dhaka — ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] }
+        { name: "Elegance Specialized Hospital PLC, Dhaka — Healthcare ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] }
       ],
       tags: [
         "Healthcare ERP",
