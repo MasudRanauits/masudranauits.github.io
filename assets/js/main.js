@@ -238,11 +238,15 @@
       </article>`)
     .join("");
 
-  /* ---- Contact details ---- */
+  /* ---- Contact details ----
+     The phone row shows the international number but copies the local
+     form, which is what dialler apps and local forms here expect. */
+  const phoneLocal = P.phoneRaw.replace(/^\+880/, "0");
+
   $("#contactList").innerHTML = [
     { icon: "pin",   label: "Location", value: P.location, href: "https://maps.google.com/?q=" + encodeURIComponent(P.location) },
     { icon: "mail",  label: "Email",    value: P.email,    href: "mailto:" + P.email, copy: true },
-    { icon: "phone", label: "Phone",    value: P.phone,    href: "tel:" + P.phoneRaw }
+    { icon: "phone", label: "Phone",    value: P.phone,    href: "tel:" + P.phoneRaw, copy: true, copyValue: phoneLocal }
   ].map(c => `
       <div class="contact-item">
         <span class="contact-ring">${icon(c.icon)}</span>
@@ -250,7 +254,7 @@
           <h4>${esc(c.label)}</h4>
           <p class="contact-value">
             <a href="${c.href}" target="_blank" rel="noopener noreferrer">${esc(c.value)}</a>
-            ${c.copy ? `<button class="copy-btn" type="button" data-copy="${esc(c.value)}"
+            ${c.copy ? `<button class="copy-btn" type="button" data-copy="${esc(c.copyValue || c.value)}"
                 aria-label="Copy ${esc(c.label.toLowerCase())}" title="Copy ${esc(c.label.toLowerCase())}">
                 ${icon("copy")}
               </button>` : ""}
