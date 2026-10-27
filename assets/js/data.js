@@ -220,11 +220,10 @@ const PORTFOLIO = {
       title: "North Pharmacy",
       type: "ERP & E-commerce Automation",
       category: "ecommerce",
-      /* TODO: fill these in — left empty rather than guessed, and the card
-         renders without them. */
-      description: "",
-      highlights: [],
-      tech: [],
+      description:
+        "Automated the North Pharmacy customer site and admin dashboard with Playwright and TypeScript on the Page Object Model — 434 test cases across 32 modules, split into Smoke, Regression and E2E suites. Tag-based runs give priority-ordered execution, and six defects were raised while building the suite.",
+      highlights: ["434 cases across 32 modules", "Smoke, Regression & E2E suites", "Customer site + admin dashboard"],
+      tech: ["Playwright", "TypeScript", "POM", "Node.js"],
       repo: "https://github.com/MasudRanauits/North-Pharmacy-E-commerce.git"
     }
   ],
