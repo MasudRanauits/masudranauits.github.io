@@ -222,7 +222,7 @@ const PORTFOLIO = {
       category: "ecommerce",
       description:
         "End-to-end test automation for the North Pharmacy customer site and admin dashboard, built with Playwright and TypeScript on the Page Object Model. Smoke, Regression and E2E suites run under tag-driven priority execution, with environment markers separating destructive, manual and blocked cases from the automated run.",
-      highlights: ["434 test cases across 32 modules", "Smoke, Regression & E2E suites", "6 defects found during automation"],
+      highlights: ["434 test cases across 32 modules", "Smoke, Regression & E2E suites"],
       tech: ["Playwright", "TypeScript", "POM", "Node.js"],
       repo: "https://github.com/MasudRanauits/North-Pharmacy-E-commerce.git"
     }
