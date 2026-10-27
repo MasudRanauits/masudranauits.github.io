@@ -94,8 +94,7 @@ const PORTFOLIO = {
         { name: "Fouad Al-Khateeb Hospital — Healthcare ERP + Web Portal + Mobile App", tags: ["Web", "Android", "iOS"] },
         { name: "Akij Mediplex Limited — Healthcare ERP + Web Portal",    tags: ["Web"] },
         { name: "Akij Insaf Diagnostic & Consultation Center — Healthcare ERP + Akij Insaf App", tags: ["Web", "Android", "iOS"] },
-        { name: "Elegance Specialized Hospital PLC, Dhaka — Healthcare ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] },
-        { name: "North Pharmacy — ERP & E-commerce",                      tags: ["Web"] }
+        { name: "Elegance Specialized Hospital PLC, Dhaka — Healthcare ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] }
       ],
       tags: [
         "Healthcare ERP",
@@ -216,6 +215,17 @@ const PORTFOLIO = {
       highlights: ["End-to-end checkout journey", "Cart & product browsing coverage", "Smoke & Regression testing"],
       tech: ["Playwright", "TypeScript", "POM", "E2E"],
       repo: "https://github.com/MasudRanauits/Playwright-E-commerce-Automation-Project.git"
+    },
+    {
+      title: "North Pharmacy",
+      type: "ERP & E-commerce Automation",
+      category: "ecommerce",
+      /* TODO: fill these in — left empty rather than guessed, and the card
+         renders without them. */
+      description: "",
+      highlights: [],
+      tech: [],
+      repo: "https://github.com/MasudRanauits/North-Pharmacy-E-commerce.git"
     }
   ],
 

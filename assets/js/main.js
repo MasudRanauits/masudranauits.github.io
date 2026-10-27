@@ -203,9 +203,9 @@
           </div>
           <span class="icon-box" style="margin:0;width:38px;height:38px">${icon("github")}</span>
         </div>
-        <p>${esc(p.description)}</p>
-        <ul class="repo-points">${p.highlights.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
-        <div class="tags">${p.tech.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+        ${p.description ? `<p>${esc(p.description)}</p>` : ""}
+        ${p.highlights && p.highlights.length ? `<ul class="repo-points">${p.highlights.map(h => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}
+        ${p.tech && p.tech.length ? `<div class="tags">${p.tech.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}
         ${p.repo ? `<a class="repo-link" href="${p.repo}" target="_blank" rel="noopener noreferrer">View on GitHub ${icon("external")}</a>` : ""}
       </article>`)
     .join("");
