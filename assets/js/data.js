@@ -94,7 +94,8 @@ const PORTFOLIO = {
         { name: "Fouad Al-Khateeb Hospital — Healthcare ERP + Web Portal + Mobile App", tags: ["Web", "Android", "iOS"] },
         { name: "Akij Mediplex Limited — Healthcare ERP + Web Portal",    tags: ["Web"] },
         { name: "Akij Insaf Diagnostic & Consultation Center — Healthcare ERP + Akij Insaf App", tags: ["Web", "Android", "iOS"] },
-        { name: "Elegance Specialized Hospital PLC, Dhaka — Healthcare ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] }
+        { name: "Elegance Specialized Hospital PLC, Dhaka — Healthcare ERP + Web Portal + ESH Mobile App", tags: ["Web", "Android", "iOS"] },
+        { name: "North Pharmacy — ERP & E-commerce",                      tags: ["Web"] }
       ],
       tags: [
         "Healthcare ERP",
